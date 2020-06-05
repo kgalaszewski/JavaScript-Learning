@@ -1,5 +1,4 @@
 // don't use var, not the best practise in ES6
-
 let name;
 
 // undefined is default value for uninitialized variable
@@ -15,11 +14,9 @@ console.log(name2);
 // camel case like in C#
 let firstName = 'lelele';
 
-
 // CONST VARIABLES
 const someConstVariable = 3;
 // someConstVariable = 4; // throws TypeError
-
 
 // DYNAMIC TYPING
 let siemanko = 'siemanko';
@@ -29,8 +26,6 @@ siemanko = 4;
 console.log(typeof(siemanko)); // number
 
 siemanko = false;
-console.log(typeof(siemanko)); // boolean
-
-console.log(typeof (siemanko) === 'string') // false
-console.log(typeof (siemanko) === 'boolean') // true
-
+console.log(typeof siemanko); // boolean
+console.log(typeof siemanko === 'string') // false
+console.log(typeof siemanko === 'boolean') // true

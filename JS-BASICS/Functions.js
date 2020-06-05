@@ -10,3 +10,10 @@ let result = greet('Karol', 'LastNameovsky'); // at the time of passing its call
 // it does not throw an error, value is undefined
 
 console.log(result);
+
+
+// lambdas are exactly the same as in C#
+fun1 = (x) => x*x;
+fun2 = (x, y, z) => x*y*z;
+console.log(fun1(2));
+console.log(fun2(1,2,3));
