@@ -17,3 +17,18 @@ fun1 = (x) => x*x;
 fun2 = (x, y, z) => x*y*z;
 console.log(fun1(2));
 console.log(fun2(1,2,3));
+
+
+// you don't need to use bracket for lambda ufnc
+fun3 = x => x*x;
+console.log(fun3(2));
+
+
+// args
+function fun4(args) {
+    if (args) {
+        console.log(args);
+    }
+}
+
+fun4({a: 123, b: '12313'});

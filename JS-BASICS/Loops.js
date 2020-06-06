@@ -18,5 +18,10 @@ newList.forEach((x) => {
     console.log(x);
 });
 
+// foreach with index like in python
+newList.forEach((item, index) => {
+    console.log(`${item} to ${index}`)
+});
+
 
 // Switch is exactly the same as in C#
